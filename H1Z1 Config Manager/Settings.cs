@@ -16,9 +16,18 @@ namespace H1Z1_Config_Manager
         public const string UserOptionsBackupFileName = "UserOptions_backup.ini";
         public static string UserOptionsPath;
 
+        public static string GetFilePath(string filename)
+        {
+            string AppDataDir = Environment.GetFolderPath(
+                Environment.SpecialFolder.ApplicationData);
+            string AppName = System.Reflection.Assembly.GetEntryAssembly().GetName().Name;
+            return AppDataDir + "\\" + AppName + "\\" + filename;
+        }
+
         public static void Init()
         {
             UserOptionsPath = String.Empty;
+            Directory.CreateDirectory(GetFilePath(""));
         }
         
         public static void Read()
@@ -27,7 +36,7 @@ namespace H1Z1_Config_Manager
 
             try
             {
-                doc.Load(ConfigFilePath);
+                doc.Load(GetFilePath(ConfigFilePath));
             }
             catch
             {
@@ -67,7 +76,7 @@ namespace H1Z1_Config_Manager
 
             first.AppendChild(element);
 
-            TextWriter writer = new StreamWriter(ConfigFilePath, false, Encoding.UTF8);
+            TextWriter writer = new StreamWriter(GetFilePath(ConfigFilePath), false, Encoding.UTF8);
 
             doc.Save(writer);
 
