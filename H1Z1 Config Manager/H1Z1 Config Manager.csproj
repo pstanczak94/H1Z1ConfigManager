@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>H1Z1_Config_Manager</RootNamespace>
     <AssemblyName>H1Z1 Config Manager</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>H1Z1 Config Manager.ico</ApplicationIcon>
+    <ApplicationIcon>H1Z1 Config Manager v3.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -230,7 +230,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="H1Z1 Config Manager.ico" />
+    <Content Include="H1Z1 Config Manager v3.ico" />
     <None Include="Resources\caday4[200x200].png" />
     <None Include="Resources\biblethump.png" />
   </ItemGroup>

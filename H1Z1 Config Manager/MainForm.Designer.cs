@@ -35,16 +35,26 @@
             this.tabPageDisplay = new System.Windows.Forms.TabPage();
             this.groupResolution = new System.Windows.Forms.GroupBox();
             this.btnChooseResolution = new System.Windows.Forms.Button();
+            this.txtResFullHeight = new H1Z1_Config_Manager.IntegerBox();
             this.lblWindowed = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtRefreshRate = new H1Z1_Config_Manager.IntegerBox();
+            this.txtResWindWidth = new H1Z1_Config_Manager.IntegerBox();
+            this.txtResFullWidth = new H1Z1_Config_Manager.IntegerBox();
             this.lblRefreshRate = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.chkWindSameAsFull = new System.Windows.Forms.CheckBox();
             this.lblFullscreen = new System.Windows.Forms.Label();
+            this.txtResWindHeight = new H1Z1_Config_Manager.IntegerBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnStartingMode = new H1Z1_Config_Manager.SwitchButton();
             this.lblFullscreenMode = new System.Windows.Forms.Label();
+            this.btnFullscreenMode = new H1Z1_Config_Manager.SwitchButton();
             this.tabPageRendering = new System.Windows.Forms.TabPage();
             this.tableRenderTwo = new System.Windows.Forms.TableLayoutPanel();
+            this.btnFogShadows = new H1Z1_Config_Manager.SwitchButton();
+            this.txtFOV = new H1Z1_Config_Manager.IntegerBox();
+            this.txtRenderDist = new H1Z1_Config_Manager.IntegerBox();
             this.lblGamma = new System.Windows.Forms.Label();
             this.lblMaxFPS = new System.Windows.Forms.Label();
             this.lblUseLod0a = new System.Windows.Forms.Label();
@@ -55,10 +65,28 @@
             this.lblVSync = new System.Windows.Forms.Label();
             this.lblDepthOfField = new System.Windows.Forms.Label();
             this.lblFOV = new System.Windows.Forms.Label();
+            this.btnAmbientOcclusion = new H1Z1_Config_Manager.SwitchButton();
+            this.btnVSync = new H1Z1_Config_Manager.SwitchButton();
+            this.btnDepthOfField = new H1Z1_Config_Manager.SwitchButton();
+            this.btnMotionBlur = new H1Z1_Config_Manager.SwitchButton();
             this.lblFogShadows = new System.Windows.Forms.Label();
+            this.btnSmoothing = new H1Z1_Config_Manager.SwitchButton();
+            this.btnUseLod0a = new H1Z1_Config_Manager.SwitchButton();
+            this.txtMaxFPS = new H1Z1_Config_Manager.IntegerBox();
+            this.txtGamma = new H1Z1_Config_Manager.IntegerBox();
             this.tableRenderOne = new System.Windows.Forms.TableLayoutPanel();
+            this.txtRenderQuality = new H1Z1_Config_Manager.IntegerBox();
+            this.btnTreeQuality = new H1Z1_Config_Manager.SwitchButton();
             this.lblTrees = new System.Windows.Forms.Label();
+            this.btnLightning = new H1Z1_Config_Manager.SwitchButton();
+            this.btnShadows = new H1Z1_Config_Manager.SwitchButton();
+            this.btnParticle = new H1Z1_Config_Manager.SwitchButton();
+            this.btnEffects = new H1Z1_Config_Manager.SwitchButton();
+            this.btnFlora = new H1Z1_Config_Manager.SwitchButton();
+            this.btnModels = new H1Z1_Config_Manager.SwitchButton();
+            this.btnTextures = new H1Z1_Config_Manager.SwitchButton();
             this.lblOverall = new System.Windows.Forms.Label();
+            this.btnOverall = new H1Z1_Config_Manager.SwitchButton();
             this.lblTextures = new System.Windows.Forms.Label();
             this.lblModels = new System.Windows.Forms.Label();
             this.lblFlora = new System.Windows.Forms.Label();
@@ -68,18 +96,29 @@
             this.lblLightning = new System.Windows.Forms.Label();
             this.labelPixQuality = new System.Windows.Forms.Label();
             this.lblLightning2 = new System.Windows.Forms.Label();
+            this.btnInteriorLightning = new H1Z1_Config_Manager.SwitchButton();
             this.tabPageGeneral = new System.Windows.Forms.TabPage();
+            this.chkLegacyHitmarker = new H1Z1_Config_Manager.CheckBoxPro();
+            this.chkClassicReticle = new H1Z1_Config_Manager.CheckBoxPro();
+            this.chkShowCOF = new H1Z1_Config_Manager.CheckBoxPro();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.tableMouseSettingsAdv = new System.Windows.Forms.TableLayoutPanel();
             this.lblRawInput = new System.Windows.Forms.Label();
+            this.btnMRawInput = new H1Z1_Config_Manager.SwitchButton();
             this.lblReduceInputLag = new System.Windows.Forms.Label();
+            this.btnMSmoothing = new H1Z1_Config_Manager.SwitchButton();
             this.lblMouseSmoothing = new System.Windows.Forms.Label();
+            this.btnMReduceInputLag = new H1Z1_Config_Manager.SwitchButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tableMouseSettings = new System.Windows.Forms.TableLayoutPanel();
             this.lblMouseVehicle = new System.Windows.Forms.Label();
+            this.txtMSensVehicle = new H1Z1_Config_Manager.DoubleBox();
             this.lblMouseNormal = new System.Windows.Forms.Label();
+            this.txtMSensScoped = new H1Z1_Config_Manager.DoubleBox();
             this.lblMouseScoped = new System.Windows.Forms.Label();
+            this.txtMSensADS = new H1Z1_Config_Manager.DoubleBox();
             this.lblMouseADS = new System.Windows.Forms.Label();
+            this.txtMSensNormal = new H1Z1_Config_Manager.DoubleBox();
             this.chkOneSensForAll = new System.Windows.Forms.CheckBox();
             this.tabPageSound = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -87,12 +126,20 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.txtMusicMaster = new H1Z1_Config_Manager.DoubleBox();
+            this.txtMusicAmbient = new H1Z1_Config_Manager.DoubleBox();
+            this.txtMusicEncounter = new H1Z1_Config_Manager.DoubleBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableSoundSettings = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.txtSoundMaster = new H1Z1_Config_Manager.DoubleBox();
+            this.txtSoundEffects = new H1Z1_Config_Manager.DoubleBox();
+            this.txtSoundUI = new H1Z1_Config_Manager.DoubleBox();
+            this.txtSoundDialog = new H1Z1_Config_Manager.DoubleBox();
+            this.chkMuteAll = new H1Z1_Config_Manager.CheckBoxPro();
             this.tabPageVoice = new System.Windows.Forms.TabPage();
             this.image1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -112,53 +159,7 @@
             this.consoleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.txtResFullHeight = new H1Z1_Config_Manager.IntegerBox();
-            this.txtRefreshRate = new H1Z1_Config_Manager.IntegerBox();
-            this.txtResWindWidth = new H1Z1_Config_Manager.IntegerBox();
-            this.txtResFullWidth = new H1Z1_Config_Manager.IntegerBox();
-            this.txtResWindHeight = new H1Z1_Config_Manager.IntegerBox();
-            this.btnStartingMode = new H1Z1_Config_Manager.SwitchButton();
-            this.btnFullscreenMode = new H1Z1_Config_Manager.SwitchButton();
-            this.btnFogShadows = new H1Z1_Config_Manager.SwitchButton();
-            this.txtFOV = new H1Z1_Config_Manager.IntegerBox();
-            this.txtRenderDist = new H1Z1_Config_Manager.IntegerBox();
-            this.btnAmbientOcclusion = new H1Z1_Config_Manager.SwitchButton();
-            this.btnVSync = new H1Z1_Config_Manager.SwitchButton();
-            this.btnDepthOfField = new H1Z1_Config_Manager.SwitchButton();
-            this.btnMotionBlur = new H1Z1_Config_Manager.SwitchButton();
-            this.btnSmoothing = new H1Z1_Config_Manager.SwitchButton();
-            this.btnUseLod0a = new H1Z1_Config_Manager.SwitchButton();
-            this.txtMaxFPS = new H1Z1_Config_Manager.IntegerBox();
-            this.txtGamma = new H1Z1_Config_Manager.IntegerBox();
-            this.txtRenderQuality = new H1Z1_Config_Manager.IntegerBox();
-            this.btnTreeQuality = new H1Z1_Config_Manager.SwitchButton();
-            this.btnLightning = new H1Z1_Config_Manager.SwitchButton();
-            this.btnShadows = new H1Z1_Config_Manager.SwitchButton();
-            this.btnParticle = new H1Z1_Config_Manager.SwitchButton();
-            this.btnEffects = new H1Z1_Config_Manager.SwitchButton();
-            this.btnFlora = new H1Z1_Config_Manager.SwitchButton();
-            this.btnModels = new H1Z1_Config_Manager.SwitchButton();
-            this.btnTextures = new H1Z1_Config_Manager.SwitchButton();
-            this.btnOverall = new H1Z1_Config_Manager.SwitchButton();
-            this.btnInteriorLightning = new H1Z1_Config_Manager.SwitchButton();
-            this.chkLegacyHitmarker = new H1Z1_Config_Manager.CheckBoxPro();
-            this.chkClassicReticle = new H1Z1_Config_Manager.CheckBoxPro();
-            this.chkShowCOF = new H1Z1_Config_Manager.CheckBoxPro();
-            this.btnMRawInput = new H1Z1_Config_Manager.SwitchButton();
-            this.btnMSmoothing = new H1Z1_Config_Manager.SwitchButton();
-            this.btnMReduceInputLag = new H1Z1_Config_Manager.SwitchButton();
-            this.txtMSensVehicle = new H1Z1_Config_Manager.DoubleBox();
-            this.txtMSensScoped = new H1Z1_Config_Manager.DoubleBox();
-            this.txtMSensADS = new H1Z1_Config_Manager.DoubleBox();
-            this.txtMSensNormal = new H1Z1_Config_Manager.DoubleBox();
-            this.txtMusicMaster = new H1Z1_Config_Manager.DoubleBox();
-            this.txtMusicAmbient = new H1Z1_Config_Manager.DoubleBox();
-            this.txtMusicEncounter = new H1Z1_Config_Manager.DoubleBox();
-            this.txtSoundMaster = new H1Z1_Config_Manager.DoubleBox();
-            this.txtSoundEffects = new H1Z1_Config_Manager.DoubleBox();
-            this.txtSoundUI = new H1Z1_Config_Manager.DoubleBox();
-            this.txtSoundDialog = new H1Z1_Config_Manager.DoubleBox();
-            this.chkMuteAll = new H1Z1_Config_Manager.CheckBoxPro();
+            this.chkCenterInventory = new H1Z1_Config_Manager.CheckBoxPro();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -284,6 +285,20 @@
             this.btnChooseResolution.UseVisualStyleBackColor = true;
             this.btnChooseResolution.Click += new System.EventHandler(this.buttonChooseResolution_Click);
             // 
+            // txtResFullHeight
+            // 
+            this.txtResFullHeight.DefaultValue = 1080;
+            this.txtResFullHeight.Location = new System.Drawing.Point(198, 61);
+            this.txtResFullHeight.MaximumValue = 9999;
+            this.txtResFullHeight.MaxLength = 4;
+            this.txtResFullHeight.MinimumValue = 0;
+            this.txtResFullHeight.Name = "txtResFullHeight";
+            this.txtResFullHeight.Size = new System.Drawing.Size(71, 23);
+            this.txtResFullHeight.TabIndex = 4;
+            this.txtResFullHeight.Text = "1080";
+            this.txtResFullHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtResFullHeight.TextChanged += new System.EventHandler(this.textBoxResolutionFullscreenHeight_TextChanged);
+            // 
             // lblWindowed
             // 
             this.lblWindowed.AutoSize = true;
@@ -306,6 +321,46 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "x";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtRefreshRate
+            // 
+            this.txtRefreshRate.DefaultValue = 60;
+            this.txtRefreshRate.Location = new System.Drawing.Point(153, 188);
+            this.txtRefreshRate.MaximumValue = 500;
+            this.txtRefreshRate.MaxLength = 3;
+            this.txtRefreshRate.MinimumValue = 0;
+            this.txtRefreshRate.Name = "txtRefreshRate";
+            this.txtRefreshRate.Size = new System.Drawing.Size(71, 23);
+            this.txtRefreshRate.TabIndex = 11;
+            this.txtRefreshRate.Text = "60";
+            this.txtRefreshRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtResWindWidth
+            // 
+            this.txtResWindWidth.DefaultValue = 1280;
+            this.txtResWindWidth.Location = new System.Drawing.Point(100, 90);
+            this.txtResWindWidth.MaximumValue = 9999;
+            this.txtResWindWidth.MaxLength = 4;
+            this.txtResWindWidth.MinimumValue = 0;
+            this.txtResWindWidth.Name = "txtResWindWidth";
+            this.txtResWindWidth.Size = new System.Drawing.Size(71, 23);
+            this.txtResWindWidth.TabIndex = 6;
+            this.txtResWindWidth.Text = "1280";
+            this.txtResWindWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtResFullWidth
+            // 
+            this.txtResFullWidth.DefaultValue = 1920;
+            this.txtResFullWidth.Location = new System.Drawing.Point(100, 61);
+            this.txtResFullWidth.MaximumValue = 9999;
+            this.txtResFullWidth.MaxLength = 4;
+            this.txtResFullWidth.MinimumValue = 0;
+            this.txtResFullWidth.Name = "txtResFullWidth";
+            this.txtResFullWidth.Size = new System.Drawing.Size(71, 23);
+            this.txtResFullWidth.TabIndex = 2;
+            this.txtResFullWidth.Text = "1920";
+            this.txtResFullWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtResFullWidth.TextChanged += new System.EventHandler(this.textBoxResolutionFullscreenWidth_TextChanged);
             // 
             // lblRefreshRate
             // 
@@ -355,6 +410,19 @@
             this.lblFullscreen.TabIndex = 1;
             this.lblFullscreen.Text = "Fullscreen:";
             // 
+            // txtResWindHeight
+            // 
+            this.txtResWindHeight.DefaultValue = 720;
+            this.txtResWindHeight.Location = new System.Drawing.Point(198, 90);
+            this.txtResWindHeight.MaximumValue = 9999;
+            this.txtResWindHeight.MaxLength = 4;
+            this.txtResWindHeight.MinimumValue = 0;
+            this.txtResWindHeight.Name = "txtResWindHeight";
+            this.txtResWindHeight.Size = new System.Drawing.Size(71, 23);
+            this.txtResWindHeight.TabIndex = 8;
+            this.txtResWindHeight.Text = "720";
+            this.txtResWindHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -365,6 +433,19 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Start in window mode:";
             // 
+            // btnStartingMode
+            // 
+            this.btnStartingMode.CurrentStateIndex = 0;
+            this.btnStartingMode.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnStartingMode.ForeColor = System.Drawing.Color.ForestGreen;
+            this.btnStartingMode.Location = new System.Drawing.Point(172, 8);
+            this.btnStartingMode.Name = "btnStartingMode";
+            this.btnStartingMode.Size = new System.Drawing.Size(76, 25);
+            this.btnStartingMode.StateTooltipEnabled = false;
+            this.btnStartingMode.TabIndex = 1;
+            this.btnStartingMode.Text = "?";
+            this.btnStartingMode.UseVisualStyleBackColor = true;
+            // 
             // lblFullscreenMode
             // 
             this.lblFullscreenMode.AutoSize = true;
@@ -374,6 +455,19 @@
             this.lblFullscreenMode.Size = new System.Drawing.Size(120, 16);
             this.lblFullscreenMode.TabIndex = 2;
             this.lblFullscreenMode.Text = "Fullscreen mode:";
+            // 
+            // btnFullscreenMode
+            // 
+            this.btnFullscreenMode.CurrentStateIndex = 0;
+            this.btnFullscreenMode.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFullscreenMode.ForeColor = System.Drawing.Color.ForestGreen;
+            this.btnFullscreenMode.Location = new System.Drawing.Point(134, 39);
+            this.btnFullscreenMode.Name = "btnFullscreenMode";
+            this.btnFullscreenMode.Size = new System.Drawing.Size(133, 25);
+            this.btnFullscreenMode.StateTooltipEnabled = false;
+            this.btnFullscreenMode.TabIndex = 3;
+            this.btnFullscreenMode.Text = "?";
+            this.btnFullscreenMode.UseVisualStyleBackColor = true;
             // 
             // tabPageRendering
             // 
@@ -433,6 +527,44 @@
             this.tableRenderTwo.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableRenderTwo.Size = new System.Drawing.Size(251, 319);
             this.tableRenderTwo.TabIndex = 1;
+            // 
+            // btnFogShadows
+            // 
+            this.btnFogShadows.CurrentStateIndex = 0;
+            this.btnFogShadows.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFogShadows.Location = new System.Drawing.Point(148, 3);
+            this.btnFogShadows.Name = "btnFogShadows";
+            this.btnFogShadows.Size = new System.Drawing.Size(100, 23);
+            this.btnFogShadows.StateTooltipEnabled = true;
+            this.btnFogShadows.TabIndex = 11;
+            this.btnFogShadows.Text = "?";
+            this.btnFogShadows.UseVisualStyleBackColor = true;
+            // 
+            // txtFOV
+            // 
+            this.txtFOV.DefaultValue = 70;
+            this.txtFOV.Location = new System.Drawing.Point(148, 148);
+            this.txtFOV.MaximumValue = 74;
+            this.txtFOV.MaxLength = 2;
+            this.txtFOV.MinimumValue = 40;
+            this.txtFOV.Name = "txtFOV";
+            this.txtFOV.Size = new System.Drawing.Size(100, 23);
+            this.txtFOV.TabIndex = 16;
+            this.txtFOV.Text = "70";
+            this.txtFOV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtRenderDist
+            // 
+            this.txtRenderDist.DefaultValue = 1500;
+            this.txtRenderDist.Location = new System.Drawing.Point(148, 90);
+            this.txtRenderDist.MaximumValue = 6000;
+            this.txtRenderDist.MaxLength = 4;
+            this.txtRenderDist.MinimumValue = 500;
+            this.txtRenderDist.Name = "txtRenderDist";
+            this.txtRenderDist.Size = new System.Drawing.Size(100, 23);
+            this.txtRenderDist.TabIndex = 14;
+            this.txtRenderDist.Text = "1500";
+            this.txtRenderDist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblGamma
             // 
@@ -574,6 +706,54 @@
             this.lblFOV.Text = "Field of view:";
             this.lblFOV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnAmbientOcclusion
+            // 
+            this.btnAmbientOcclusion.CurrentStateIndex = 0;
+            this.btnAmbientOcclusion.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnAmbientOcclusion.Location = new System.Drawing.Point(148, 61);
+            this.btnAmbientOcclusion.Name = "btnAmbientOcclusion";
+            this.btnAmbientOcclusion.Size = new System.Drawing.Size(100, 23);
+            this.btnAmbientOcclusion.StateTooltipEnabled = true;
+            this.btnAmbientOcclusion.TabIndex = 13;
+            this.btnAmbientOcclusion.Text = "?";
+            this.btnAmbientOcclusion.UseVisualStyleBackColor = true;
+            // 
+            // btnVSync
+            // 
+            this.btnVSync.CurrentStateIndex = 0;
+            this.btnVSync.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnVSync.Location = new System.Drawing.Point(148, 119);
+            this.btnVSync.Name = "btnVSync";
+            this.btnVSync.Size = new System.Drawing.Size(100, 23);
+            this.btnVSync.StateTooltipEnabled = true;
+            this.btnVSync.TabIndex = 15;
+            this.btnVSync.Text = "?";
+            this.btnVSync.UseVisualStyleBackColor = true;
+            // 
+            // btnDepthOfField
+            // 
+            this.btnDepthOfField.CurrentStateIndex = 0;
+            this.btnDepthOfField.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnDepthOfField.Location = new System.Drawing.Point(148, 177);
+            this.btnDepthOfField.Name = "btnDepthOfField";
+            this.btnDepthOfField.Size = new System.Drawing.Size(100, 23);
+            this.btnDepthOfField.StateTooltipEnabled = true;
+            this.btnDepthOfField.TabIndex = 17;
+            this.btnDepthOfField.Text = "?";
+            this.btnDepthOfField.UseVisualStyleBackColor = true;
+            // 
+            // btnMotionBlur
+            // 
+            this.btnMotionBlur.CurrentStateIndex = 0;
+            this.btnMotionBlur.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMotionBlur.Location = new System.Drawing.Point(148, 206);
+            this.btnMotionBlur.Name = "btnMotionBlur";
+            this.btnMotionBlur.Size = new System.Drawing.Size(100, 23);
+            this.btnMotionBlur.StateTooltipEnabled = true;
+            this.btnMotionBlur.TabIndex = 18;
+            this.btnMotionBlur.Text = "?";
+            this.btnMotionBlur.UseVisualStyleBackColor = true;
+            // 
             // lblFogShadows
             // 
             this.lblFogShadows.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -587,6 +767,56 @@
             this.lblFogShadows.TabIndex = 0;
             this.lblFogShadows.Text = "Fog shadows:";
             this.lblFogShadows.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSmoothing
+            // 
+            this.btnSmoothing.CurrentStateIndex = 0;
+            this.btnSmoothing.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnSmoothing.Location = new System.Drawing.Point(148, 235);
+            this.btnSmoothing.Name = "btnSmoothing";
+            this.btnSmoothing.Size = new System.Drawing.Size(100, 23);
+            this.btnSmoothing.StateTooltipEnabled = true;
+            this.btnSmoothing.TabIndex = 19;
+            this.btnSmoothing.Text = "?";
+            this.btnSmoothing.UseVisualStyleBackColor = true;
+            // 
+            // btnUseLod0a
+            // 
+            this.btnUseLod0a.CurrentStateIndex = 0;
+            this.btnUseLod0a.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnUseLod0a.Location = new System.Drawing.Point(148, 264);
+            this.btnUseLod0a.Name = "btnUseLod0a";
+            this.btnUseLod0a.Size = new System.Drawing.Size(100, 23);
+            this.btnUseLod0a.StateTooltipEnabled = true;
+            this.btnUseLod0a.TabIndex = 20;
+            this.btnUseLod0a.Text = "?";
+            this.btnUseLod0a.UseVisualStyleBackColor = true;
+            // 
+            // txtMaxFPS
+            // 
+            this.txtMaxFPS.DefaultValue = 100;
+            this.txtMaxFPS.Location = new System.Drawing.Point(148, 32);
+            this.txtMaxFPS.MaximumValue = 999;
+            this.txtMaxFPS.MaxLength = 3;
+            this.txtMaxFPS.MinimumValue = -1;
+            this.txtMaxFPS.Name = "txtMaxFPS";
+            this.txtMaxFPS.Size = new System.Drawing.Size(100, 23);
+            this.txtMaxFPS.TabIndex = 12;
+            this.txtMaxFPS.Text = "100";
+            this.txtMaxFPS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtGamma
+            // 
+            this.txtGamma.DefaultValue = 0;
+            this.txtGamma.Location = new System.Drawing.Point(148, 293);
+            this.txtGamma.MaximumValue = 100;
+            this.txtGamma.MaxLength = 3;
+            this.txtGamma.MinimumValue = 0;
+            this.txtGamma.Name = "txtGamma";
+            this.txtGamma.Size = new System.Drawing.Size(100, 23);
+            this.txtGamma.TabIndex = 21;
+            this.txtGamma.Text = "0";
+            this.txtGamma.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tableRenderOne
             // 
@@ -636,6 +866,31 @@
             this.tableRenderOne.Size = new System.Drawing.Size(240, 319);
             this.tableRenderOne.TabIndex = 0;
             // 
+            // txtRenderQuality
+            // 
+            this.txtRenderQuality.DefaultValue = 100;
+            this.txtRenderQuality.Location = new System.Drawing.Point(137, 32);
+            this.txtRenderQuality.MaximumValue = 100;
+            this.txtRenderQuality.MaxLength = 3;
+            this.txtRenderQuality.MinimumValue = 50;
+            this.txtRenderQuality.Name = "txtRenderQuality";
+            this.txtRenderQuality.Size = new System.Drawing.Size(100, 23);
+            this.txtRenderQuality.TabIndex = 12;
+            this.txtRenderQuality.Text = "100";
+            this.txtRenderQuality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnTreeQuality
+            // 
+            this.btnTreeQuality.CurrentStateIndex = 0;
+            this.btnTreeQuality.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnTreeQuality.Location = new System.Drawing.Point(137, 148);
+            this.btnTreeQuality.Name = "btnTreeQuality";
+            this.btnTreeQuality.Size = new System.Drawing.Size(100, 23);
+            this.btnTreeQuality.StateTooltipEnabled = true;
+            this.btnTreeQuality.TabIndex = 16;
+            this.btnTreeQuality.Text = "?";
+            this.btnTreeQuality.UseVisualStyleBackColor = true;
+            // 
             // lblTrees
             // 
             this.lblTrees.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -650,6 +905,90 @@
             this.lblTrees.Text = "Trees:";
             this.lblTrees.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnLightning
+            // 
+            this.btnLightning.CurrentStateIndex = 0;
+            this.btnLightning.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnLightning.Location = new System.Drawing.Point(137, 264);
+            this.btnLightning.Name = "btnLightning";
+            this.btnLightning.Size = new System.Drawing.Size(100, 23);
+            this.btnLightning.StateTooltipEnabled = true;
+            this.btnLightning.TabIndex = 20;
+            this.btnLightning.Text = "?";
+            this.btnLightning.UseVisualStyleBackColor = true;
+            // 
+            // btnShadows
+            // 
+            this.btnShadows.CurrentStateIndex = 0;
+            this.btnShadows.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnShadows.Location = new System.Drawing.Point(137, 235);
+            this.btnShadows.Name = "btnShadows";
+            this.btnShadows.Size = new System.Drawing.Size(100, 23);
+            this.btnShadows.StateTooltipEnabled = true;
+            this.btnShadows.TabIndex = 19;
+            this.btnShadows.Text = "?";
+            this.btnShadows.UseVisualStyleBackColor = true;
+            // 
+            // btnParticle
+            // 
+            this.btnParticle.CurrentStateIndex = 0;
+            this.btnParticle.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnParticle.Location = new System.Drawing.Point(137, 206);
+            this.btnParticle.Name = "btnParticle";
+            this.btnParticle.Size = new System.Drawing.Size(100, 23);
+            this.btnParticle.StateTooltipEnabled = true;
+            this.btnParticle.TabIndex = 18;
+            this.btnParticle.Text = "?";
+            this.btnParticle.UseVisualStyleBackColor = true;
+            // 
+            // btnEffects
+            // 
+            this.btnEffects.CurrentStateIndex = 0;
+            this.btnEffects.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnEffects.Location = new System.Drawing.Point(137, 177);
+            this.btnEffects.Name = "btnEffects";
+            this.btnEffects.Size = new System.Drawing.Size(100, 23);
+            this.btnEffects.StateTooltipEnabled = true;
+            this.btnEffects.TabIndex = 17;
+            this.btnEffects.Text = "?";
+            this.btnEffects.UseVisualStyleBackColor = true;
+            // 
+            // btnFlora
+            // 
+            this.btnFlora.CurrentStateIndex = 0;
+            this.btnFlora.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFlora.Location = new System.Drawing.Point(137, 119);
+            this.btnFlora.Name = "btnFlora";
+            this.btnFlora.Size = new System.Drawing.Size(100, 23);
+            this.btnFlora.StateTooltipEnabled = true;
+            this.btnFlora.TabIndex = 15;
+            this.btnFlora.Text = "?";
+            this.btnFlora.UseVisualStyleBackColor = true;
+            // 
+            // btnModels
+            // 
+            this.btnModels.CurrentStateIndex = 0;
+            this.btnModels.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnModels.Location = new System.Drawing.Point(137, 90);
+            this.btnModels.Name = "btnModels";
+            this.btnModels.Size = new System.Drawing.Size(100, 23);
+            this.btnModels.StateTooltipEnabled = true;
+            this.btnModels.TabIndex = 14;
+            this.btnModels.Text = "?";
+            this.btnModels.UseVisualStyleBackColor = true;
+            // 
+            // btnTextures
+            // 
+            this.btnTextures.CurrentStateIndex = 0;
+            this.btnTextures.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnTextures.Location = new System.Drawing.Point(137, 61);
+            this.btnTextures.Name = "btnTextures";
+            this.btnTextures.Size = new System.Drawing.Size(100, 23);
+            this.btnTextures.StateTooltipEnabled = true;
+            this.btnTextures.TabIndex = 13;
+            this.btnTextures.Text = "?";
+            this.btnTextures.UseVisualStyleBackColor = true;
+            // 
             // lblOverall
             // 
             this.lblOverall.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -662,6 +1001,18 @@
             this.lblOverall.TabIndex = 0;
             this.lblOverall.Text = "Overall quality:";
             this.lblOverall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnOverall
+            // 
+            this.btnOverall.CurrentStateIndex = 0;
+            this.btnOverall.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnOverall.Location = new System.Drawing.Point(137, 3);
+            this.btnOverall.Name = "btnOverall";
+            this.btnOverall.Size = new System.Drawing.Size(100, 23);
+            this.btnOverall.StateTooltipEnabled = true;
+            this.btnOverall.TabIndex = 11;
+            this.btnOverall.Text = "?";
+            this.btnOverall.UseVisualStyleBackColor = true;
             // 
             // lblTextures
             // 
@@ -789,9 +1140,22 @@
             this.lblLightning2.Text = "Interior lightning:";
             this.lblLightning2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnInteriorLightning
+            // 
+            this.btnInteriorLightning.CurrentStateIndex = 0;
+            this.btnInteriorLightning.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnInteriorLightning.Location = new System.Drawing.Point(137, 293);
+            this.btnInteriorLightning.Name = "btnInteriorLightning";
+            this.btnInteriorLightning.Size = new System.Drawing.Size(100, 23);
+            this.btnInteriorLightning.StateTooltipEnabled = true;
+            this.btnInteriorLightning.TabIndex = 21;
+            this.btnInteriorLightning.Text = "?";
+            this.btnInteriorLightning.UseVisualStyleBackColor = true;
+            // 
             // tabPageGeneral
             // 
             this.tabPageGeneral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(255)))), ((int)(((byte)(227)))));
+            this.tabPageGeneral.Controls.Add(this.chkCenterInventory);
             this.tabPageGeneral.Controls.Add(this.chkLegacyHitmarker);
             this.tabPageGeneral.Controls.Add(this.chkClassicReticle);
             this.tabPageGeneral.Controls.Add(this.chkShowCOF);
@@ -804,6 +1168,48 @@
             this.tabPageGeneral.Size = new System.Drawing.Size(523, 339);
             this.tabPageGeneral.TabIndex = 2;
             this.tabPageGeneral.Text = "General";
+            // 
+            // chkLegacyHitmarker
+            // 
+            this.chkLegacyHitmarker.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.chkLegacyHitmarker.CheckedState = "1";
+            this.chkLegacyHitmarker.Location = new System.Drawing.Point(256, 229);
+            this.chkLegacyHitmarker.Name = "chkLegacyHitmarker";
+            this.chkLegacyHitmarker.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
+            this.chkLegacyHitmarker.Size = new System.Drawing.Size(259, 30);
+            this.chkLegacyHitmarker.TabIndex = 23;
+            this.chkLegacyHitmarker.Text = "Legacy hitmarker";
+            this.chkLegacyHitmarker.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkLegacyHitmarker.UncheckedState = "0";
+            this.chkLegacyHitmarker.UseVisualStyleBackColor = false;
+            // 
+            // chkClassicReticle
+            // 
+            this.chkClassicReticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.chkClassicReticle.CheckedState = "1";
+            this.chkClassicReticle.Location = new System.Drawing.Point(256, 301);
+            this.chkClassicReticle.Name = "chkClassicReticle";
+            this.chkClassicReticle.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
+            this.chkClassicReticle.Size = new System.Drawing.Size(259, 30);
+            this.chkClassicReticle.TabIndex = 22;
+            this.chkClassicReticle.Text = "Classic reticle in first person";
+            this.chkClassicReticle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkClassicReticle.UncheckedState = "0";
+            this.chkClassicReticle.UseVisualStyleBackColor = false;
+            // 
+            // chkShowCOF
+            // 
+            this.chkShowCOF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(220)))));
+            this.chkShowCOF.CheckedState = "1";
+            this.chkShowCOF.Location = new System.Drawing.Point(256, 265);
+            this.chkShowCOF.Name = "chkShowCOF";
+            this.chkShowCOF.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
+            this.chkShowCOF.Size = new System.Drawing.Size(259, 30);
+            this.chkShowCOF.TabIndex = 21;
+            this.chkShowCOF.Text = "Show COF";
+            this.chkShowCOF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkShowCOF.UncheckedState = "0";
+            this.chkShowCOF.UseVisualStyleBackColor = false;
             // 
             // groupBox4
             // 
@@ -848,6 +1254,18 @@
             this.lblRawInput.TabIndex = 12;
             this.lblRawInput.Text = "Raw input:";
             // 
+            // btnMRawInput
+            // 
+            this.btnMRawInput.CurrentStateIndex = 0;
+            this.btnMRawInput.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMRawInput.Location = new System.Drawing.Point(143, 3);
+            this.btnMRawInput.Name = "btnMRawInput";
+            this.btnMRawInput.Size = new System.Drawing.Size(95, 26);
+            this.btnMRawInput.StateTooltipEnabled = true;
+            this.btnMRawInput.TabIndex = 13;
+            this.btnMRawInput.Text = "?";
+            this.btnMRawInput.UseVisualStyleBackColor = true;
+            // 
             // lblReduceInputLag
             // 
             this.lblReduceInputLag.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -861,6 +1279,18 @@
             this.lblReduceInputLag.TabIndex = 14;
             this.lblReduceInputLag.Text = "Reduce input lag:";
             // 
+            // btnMSmoothing
+            // 
+            this.btnMSmoothing.CurrentStateIndex = 0;
+            this.btnMSmoothing.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMSmoothing.Location = new System.Drawing.Point(143, 67);
+            this.btnMSmoothing.Name = "btnMSmoothing";
+            this.btnMSmoothing.Size = new System.Drawing.Size(95, 26);
+            this.btnMSmoothing.StateTooltipEnabled = true;
+            this.btnMSmoothing.TabIndex = 17;
+            this.btnMSmoothing.Text = "?";
+            this.btnMSmoothing.UseVisualStyleBackColor = true;
+            // 
             // lblMouseSmoothing
             // 
             this.lblMouseSmoothing.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -873,6 +1303,18 @@
             this.lblMouseSmoothing.Size = new System.Drawing.Size(89, 22);
             this.lblMouseSmoothing.TabIndex = 15;
             this.lblMouseSmoothing.Text = "Smoothing:";
+            // 
+            // btnMReduceInputLag
+            // 
+            this.btnMReduceInputLag.CurrentStateIndex = 0;
+            this.btnMReduceInputLag.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMReduceInputLag.Location = new System.Drawing.Point(143, 35);
+            this.btnMReduceInputLag.Name = "btnMReduceInputLag";
+            this.btnMReduceInputLag.Size = new System.Drawing.Size(95, 26);
+            this.btnMReduceInputLag.StateTooltipEnabled = true;
+            this.btnMReduceInputLag.TabIndex = 16;
+            this.btnMReduceInputLag.Text = "?";
+            this.btnMReduceInputLag.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -924,6 +1366,21 @@
             this.lblMouseVehicle.TabIndex = 21;
             this.lblMouseVehicle.Text = "Vehicle:";
             // 
+            // txtMSensVehicle
+            // 
+            this.txtMSensVehicle.DefaultValue = 0.35D;
+            this.txtMSensVehicle.Location = new System.Drawing.Point(89, 109);
+            this.txtMSensVehicle.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMSensVehicle.MaximumValue = 1D;
+            this.txtMSensVehicle.MaxLength = 5;
+            this.txtMSensVehicle.MinimumValue = 0D;
+            this.txtMSensVehicle.Name = "txtMSensVehicle";
+            this.txtMSensVehicle.NumberPattern = "0.00";
+            this.txtMSensVehicle.Size = new System.Drawing.Size(100, 23);
+            this.txtMSensVehicle.TabIndex = 21;
+            this.txtMSensVehicle.Text = "0.35";
+            this.txtMSensVehicle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // lblMouseNormal
             // 
             this.lblMouseNormal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -936,6 +1393,21 @@
             this.lblMouseNormal.Size = new System.Drawing.Size(64, 22);
             this.lblMouseNormal.TabIndex = 1;
             this.lblMouseNormal.Text = "Normal:";
+            // 
+            // txtMSensScoped
+            // 
+            this.txtMSensScoped.DefaultValue = 0.15D;
+            this.txtMSensScoped.Location = new System.Drawing.Point(89, 76);
+            this.txtMSensScoped.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMSensScoped.MaximumValue = 1D;
+            this.txtMSensScoped.MaxLength = 5;
+            this.txtMSensScoped.MinimumValue = 0D;
+            this.txtMSensScoped.Name = "txtMSensScoped";
+            this.txtMSensScoped.NumberPattern = "0.00";
+            this.txtMSensScoped.Size = new System.Drawing.Size(100, 23);
+            this.txtMSensScoped.TabIndex = 6;
+            this.txtMSensScoped.Text = "0.15";
+            this.txtMSensScoped.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblMouseScoped
             // 
@@ -950,6 +1422,21 @@
             this.lblMouseScoped.TabIndex = 3;
             this.lblMouseScoped.Text = "Scoped:";
             // 
+            // txtMSensADS
+            // 
+            this.txtMSensADS.DefaultValue = 0.15D;
+            this.txtMSensADS.Location = new System.Drawing.Point(89, 43);
+            this.txtMSensADS.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMSensADS.MaximumValue = 1D;
+            this.txtMSensADS.MaxLength = 5;
+            this.txtMSensADS.MinimumValue = 0D;
+            this.txtMSensADS.Name = "txtMSensADS";
+            this.txtMSensADS.NumberPattern = "0.00";
+            this.txtMSensADS.Size = new System.Drawing.Size(100, 23);
+            this.txtMSensADS.TabIndex = 5;
+            this.txtMSensADS.Text = "0.15";
+            this.txtMSensADS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // lblMouseADS
             // 
             this.lblMouseADS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -962,6 +1449,22 @@
             this.lblMouseADS.Size = new System.Drawing.Size(47, 22);
             this.lblMouseADS.TabIndex = 2;
             this.lblMouseADS.Text = "ADS:";
+            // 
+            // txtMSensNormal
+            // 
+            this.txtMSensNormal.DefaultValue = 0.15D;
+            this.txtMSensNormal.Location = new System.Drawing.Point(89, 10);
+            this.txtMSensNormal.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMSensNormal.MaximumValue = 1D;
+            this.txtMSensNormal.MaxLength = 5;
+            this.txtMSensNormal.MinimumValue = 0D;
+            this.txtMSensNormal.Name = "txtMSensNormal";
+            this.txtMSensNormal.NumberPattern = "0.00";
+            this.txtMSensNormal.Size = new System.Drawing.Size(100, 23);
+            this.txtMSensNormal.TabIndex = 4;
+            this.txtMSensNormal.Text = "0.15";
+            this.txtMSensNormal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMSensNormal.TextChanged += new System.EventHandler(this.txtMSensNormal_TextChanged);
             // 
             // chkOneSensForAll
             // 
@@ -1060,6 +1563,48 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "Ambient:";
             // 
+            // txtMusicMaster
+            // 
+            this.txtMusicMaster.DefaultValue = 0D;
+            this.txtMusicMaster.Location = new System.Drawing.Point(102, 5);
+            this.txtMusicMaster.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMusicMaster.MaximumValue = 1D;
+            this.txtMusicMaster.MinimumValue = 0D;
+            this.txtMusicMaster.Name = "txtMusicMaster";
+            this.txtMusicMaster.NumberPattern = "0.00";
+            this.txtMusicMaster.Size = new System.Drawing.Size(100, 23);
+            this.txtMusicMaster.TabIndex = 3;
+            this.txtMusicMaster.Text = "0.00";
+            this.txtMusicMaster.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtMusicAmbient
+            // 
+            this.txtMusicAmbient.DefaultValue = 0D;
+            this.txtMusicAmbient.Location = new System.Drawing.Point(102, 38);
+            this.txtMusicAmbient.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMusicAmbient.MaximumValue = 1D;
+            this.txtMusicAmbient.MinimumValue = 0D;
+            this.txtMusicAmbient.Name = "txtMusicAmbient";
+            this.txtMusicAmbient.NumberPattern = "0.00";
+            this.txtMusicAmbient.Size = new System.Drawing.Size(100, 23);
+            this.txtMusicAmbient.TabIndex = 4;
+            this.txtMusicAmbient.Text = "0.00";
+            this.txtMusicAmbient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtMusicEncounter
+            // 
+            this.txtMusicEncounter.DefaultValue = 0D;
+            this.txtMusicEncounter.Location = new System.Drawing.Point(102, 71);
+            this.txtMusicEncounter.Margin = new System.Windows.Forms.Padding(5);
+            this.txtMusicEncounter.MaximumValue = 1D;
+            this.txtMusicEncounter.MinimumValue = 0D;
+            this.txtMusicEncounter.Name = "txtMusicEncounter";
+            this.txtMusicEncounter.NumberPattern = "0.00";
+            this.txtMusicEncounter.Size = new System.Drawing.Size(100, 23);
+            this.txtMusicEncounter.TabIndex = 5;
+            this.txtMusicEncounter.Text = "0.00";
+            this.txtMusicEncounter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.tableSoundSettings);
@@ -1145,6 +1690,77 @@
             this.label6.Size = new System.Drawing.Size(59, 22);
             this.label6.TabIndex = 3;
             this.label6.Text = "Dialog:";
+            // 
+            // txtSoundMaster
+            // 
+            this.txtSoundMaster.DefaultValue = 0D;
+            this.txtSoundMaster.Location = new System.Drawing.Point(82, 5);
+            this.txtSoundMaster.Margin = new System.Windows.Forms.Padding(5);
+            this.txtSoundMaster.MaximumValue = 1D;
+            this.txtSoundMaster.MinimumValue = 0D;
+            this.txtSoundMaster.Name = "txtSoundMaster";
+            this.txtSoundMaster.NumberPattern = "0.00";
+            this.txtSoundMaster.Size = new System.Drawing.Size(100, 23);
+            this.txtSoundMaster.TabIndex = 4;
+            this.txtSoundMaster.Text = "0.00";
+            this.txtSoundMaster.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtSoundEffects
+            // 
+            this.txtSoundEffects.DefaultValue = 0D;
+            this.txtSoundEffects.Location = new System.Drawing.Point(82, 38);
+            this.txtSoundEffects.Margin = new System.Windows.Forms.Padding(5);
+            this.txtSoundEffects.MaximumValue = 1D;
+            this.txtSoundEffects.MinimumValue = 0D;
+            this.txtSoundEffects.Name = "txtSoundEffects";
+            this.txtSoundEffects.NumberPattern = "0.00";
+            this.txtSoundEffects.Size = new System.Drawing.Size(100, 23);
+            this.txtSoundEffects.TabIndex = 5;
+            this.txtSoundEffects.Text = "0.00";
+            this.txtSoundEffects.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtSoundUI
+            // 
+            this.txtSoundUI.DefaultValue = 0D;
+            this.txtSoundUI.Location = new System.Drawing.Point(82, 71);
+            this.txtSoundUI.Margin = new System.Windows.Forms.Padding(5);
+            this.txtSoundUI.MaximumValue = 1D;
+            this.txtSoundUI.MinimumValue = 0D;
+            this.txtSoundUI.Name = "txtSoundUI";
+            this.txtSoundUI.NumberPattern = "0.00";
+            this.txtSoundUI.Size = new System.Drawing.Size(100, 23);
+            this.txtSoundUI.TabIndex = 6;
+            this.txtSoundUI.Text = "0.00";
+            this.txtSoundUI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtSoundDialog
+            // 
+            this.txtSoundDialog.DefaultValue = 0D;
+            this.txtSoundDialog.Location = new System.Drawing.Point(82, 104);
+            this.txtSoundDialog.Margin = new System.Windows.Forms.Padding(5);
+            this.txtSoundDialog.MaximumValue = 1D;
+            this.txtSoundDialog.MinimumValue = 0D;
+            this.txtSoundDialog.Name = "txtSoundDialog";
+            this.txtSoundDialog.NumberPattern = "0.00";
+            this.txtSoundDialog.Size = new System.Drawing.Size(100, 23);
+            this.txtSoundDialog.TabIndex = 7;
+            this.txtSoundDialog.Text = "0.00";
+            this.txtSoundDialog.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // chkMuteAll
+            // 
+            this.chkMuteAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
+            this.chkMuteAll.CheckedState = "1";
+            this.chkMuteAll.Location = new System.Drawing.Point(21, 178);
+            this.chkMuteAll.Margin = new System.Windows.Forms.Padding(5);
+            this.chkMuteAll.Name = "chkMuteAll";
+            this.chkMuteAll.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
+            this.chkMuteAll.Size = new System.Drawing.Size(182, 55);
+            this.chkMuteAll.TabIndex = 2;
+            this.chkMuteAll.Text = "Mute sounds";
+            this.chkMuteAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkMuteAll.UncheckedState = "0";
+            this.chkMuteAll.UseVisualStyleBackColor = false;
             // 
             // tabPageVoice
             // 
@@ -1268,19 +1884,19 @@
             // firstToolStripMenuItem
             // 
             this.firstToolStripMenuItem.Name = "firstToolStripMenuItem";
-            this.firstToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.firstToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.firstToolStripMenuItem.Text = "Low";
             // 
             // secondToolStripMenuItem
             // 
             this.secondToolStripMenuItem.Name = "secondToolStripMenuItem";
-            this.secondToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.secondToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.secondToolStripMenuItem.Text = "Medium";
             // 
             // highToolStripMenuItem
             // 
             this.highToolStripMenuItem.Name = "highToolStripMenuItem";
-            this.highToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.highToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.highToolStripMenuItem.Text = "High";
             // 
             // debugToolStripMenuItem
@@ -1313,619 +1929,19 @@
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // txtResFullHeight
-            // 
-            this.txtResFullHeight.DefaultValue = 1080;
-            this.txtResFullHeight.Location = new System.Drawing.Point(198, 61);
-            this.txtResFullHeight.MaximumValue = 9999;
-            this.txtResFullHeight.MaxLength = 4;
-            this.txtResFullHeight.MinimumValue = 0;
-            this.txtResFullHeight.Name = "txtResFullHeight";
-            this.txtResFullHeight.Size = new System.Drawing.Size(71, 23);
-            this.txtResFullHeight.TabIndex = 4;
-            this.txtResFullHeight.Text = "1080";
-            this.txtResFullHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtResFullHeight.TextChanged += new System.EventHandler(this.textBoxResolutionFullscreenHeight_TextChanged);
-            // 
-            // txtRefreshRate
-            // 
-            this.txtRefreshRate.DefaultValue = 60;
-            this.txtRefreshRate.Location = new System.Drawing.Point(153, 188);
-            this.txtRefreshRate.MaximumValue = 500;
-            this.txtRefreshRate.MaxLength = 3;
-            this.txtRefreshRate.MinimumValue = 0;
-            this.txtRefreshRate.Name = "txtRefreshRate";
-            this.txtRefreshRate.Size = new System.Drawing.Size(71, 23);
-            this.txtRefreshRate.TabIndex = 11;
-            this.txtRefreshRate.Text = "60";
-            this.txtRefreshRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtResWindWidth
-            // 
-            this.txtResWindWidth.DefaultValue = 1280;
-            this.txtResWindWidth.Location = new System.Drawing.Point(100, 90);
-            this.txtResWindWidth.MaximumValue = 9999;
-            this.txtResWindWidth.MaxLength = 4;
-            this.txtResWindWidth.MinimumValue = 0;
-            this.txtResWindWidth.Name = "txtResWindWidth";
-            this.txtResWindWidth.Size = new System.Drawing.Size(71, 23);
-            this.txtResWindWidth.TabIndex = 6;
-            this.txtResWindWidth.Text = "1280";
-            this.txtResWindWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtResFullWidth
-            // 
-            this.txtResFullWidth.DefaultValue = 1920;
-            this.txtResFullWidth.Location = new System.Drawing.Point(100, 61);
-            this.txtResFullWidth.MaximumValue = 9999;
-            this.txtResFullWidth.MaxLength = 4;
-            this.txtResFullWidth.MinimumValue = 0;
-            this.txtResFullWidth.Name = "txtResFullWidth";
-            this.txtResFullWidth.Size = new System.Drawing.Size(71, 23);
-            this.txtResFullWidth.TabIndex = 2;
-            this.txtResFullWidth.Text = "1920";
-            this.txtResFullWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtResFullWidth.TextChanged += new System.EventHandler(this.textBoxResolutionFullscreenWidth_TextChanged);
-            // 
-            // txtResWindHeight
-            // 
-            this.txtResWindHeight.DefaultValue = 720;
-            this.txtResWindHeight.Location = new System.Drawing.Point(198, 90);
-            this.txtResWindHeight.MaximumValue = 9999;
-            this.txtResWindHeight.MaxLength = 4;
-            this.txtResWindHeight.MinimumValue = 0;
-            this.txtResWindHeight.Name = "txtResWindHeight";
-            this.txtResWindHeight.Size = new System.Drawing.Size(71, 23);
-            this.txtResWindHeight.TabIndex = 8;
-            this.txtResWindHeight.Text = "720";
-            this.txtResWindHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnStartingMode
-            // 
-            this.btnStartingMode.CurrentStateIndex = 0;
-            this.btnStartingMode.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnStartingMode.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btnStartingMode.Location = new System.Drawing.Point(172, 8);
-            this.btnStartingMode.Name = "btnStartingMode";
-            this.btnStartingMode.Size = new System.Drawing.Size(76, 25);
-            this.btnStartingMode.StateTooltipEnabled = false;
-            this.btnStartingMode.TabIndex = 1;
-            this.btnStartingMode.Text = "?";
-            this.btnStartingMode.UseVisualStyleBackColor = true;
-            // 
-            // btnFullscreenMode
-            // 
-            this.btnFullscreenMode.CurrentStateIndex = 0;
-            this.btnFullscreenMode.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnFullscreenMode.ForeColor = System.Drawing.Color.ForestGreen;
-            this.btnFullscreenMode.Location = new System.Drawing.Point(134, 39);
-            this.btnFullscreenMode.Name = "btnFullscreenMode";
-            this.btnFullscreenMode.Size = new System.Drawing.Size(133, 25);
-            this.btnFullscreenMode.StateTooltipEnabled = false;
-            this.btnFullscreenMode.TabIndex = 3;
-            this.btnFullscreenMode.Text = "?";
-            this.btnFullscreenMode.UseVisualStyleBackColor = true;
-            // 
-            // btnFogShadows
-            // 
-            this.btnFogShadows.CurrentStateIndex = 0;
-            this.btnFogShadows.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnFogShadows.Location = new System.Drawing.Point(148, 3);
-            this.btnFogShadows.Name = "btnFogShadows";
-            this.btnFogShadows.Size = new System.Drawing.Size(100, 23);
-            this.btnFogShadows.StateTooltipEnabled = true;
-            this.btnFogShadows.TabIndex = 11;
-            this.btnFogShadows.Text = "?";
-            this.btnFogShadows.UseVisualStyleBackColor = true;
-            // 
-            // txtFOV
-            // 
-            this.txtFOV.DefaultValue = 70;
-            this.txtFOV.Location = new System.Drawing.Point(148, 148);
-            this.txtFOV.MaximumValue = 74;
-            this.txtFOV.MaxLength = 2;
-            this.txtFOV.MinimumValue = 40;
-            this.txtFOV.Name = "txtFOV";
-            this.txtFOV.Size = new System.Drawing.Size(100, 23);
-            this.txtFOV.TabIndex = 16;
-            this.txtFOV.Text = "70";
-            this.txtFOV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtRenderDist
-            // 
-            this.txtRenderDist.DefaultValue = 1500;
-            this.txtRenderDist.Location = new System.Drawing.Point(148, 90);
-            this.txtRenderDist.MaximumValue = 6000;
-            this.txtRenderDist.MaxLength = 4;
-            this.txtRenderDist.MinimumValue = 500;
-            this.txtRenderDist.Name = "txtRenderDist";
-            this.txtRenderDist.Size = new System.Drawing.Size(100, 23);
-            this.txtRenderDist.TabIndex = 14;
-            this.txtRenderDist.Text = "1500";
-            this.txtRenderDist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnAmbientOcclusion
-            // 
-            this.btnAmbientOcclusion.CurrentStateIndex = 0;
-            this.btnAmbientOcclusion.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnAmbientOcclusion.Location = new System.Drawing.Point(148, 61);
-            this.btnAmbientOcclusion.Name = "btnAmbientOcclusion";
-            this.btnAmbientOcclusion.Size = new System.Drawing.Size(100, 23);
-            this.btnAmbientOcclusion.StateTooltipEnabled = true;
-            this.btnAmbientOcclusion.TabIndex = 13;
-            this.btnAmbientOcclusion.Text = "?";
-            this.btnAmbientOcclusion.UseVisualStyleBackColor = true;
-            // 
-            // btnVSync
-            // 
-            this.btnVSync.CurrentStateIndex = 0;
-            this.btnVSync.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnVSync.Location = new System.Drawing.Point(148, 119);
-            this.btnVSync.Name = "btnVSync";
-            this.btnVSync.Size = new System.Drawing.Size(100, 23);
-            this.btnVSync.StateTooltipEnabled = true;
-            this.btnVSync.TabIndex = 15;
-            this.btnVSync.Text = "?";
-            this.btnVSync.UseVisualStyleBackColor = true;
-            // 
-            // btnDepthOfField
-            // 
-            this.btnDepthOfField.CurrentStateIndex = 0;
-            this.btnDepthOfField.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnDepthOfField.Location = new System.Drawing.Point(148, 177);
-            this.btnDepthOfField.Name = "btnDepthOfField";
-            this.btnDepthOfField.Size = new System.Drawing.Size(100, 23);
-            this.btnDepthOfField.StateTooltipEnabled = true;
-            this.btnDepthOfField.TabIndex = 17;
-            this.btnDepthOfField.Text = "?";
-            this.btnDepthOfField.UseVisualStyleBackColor = true;
-            // 
-            // btnMotionBlur
-            // 
-            this.btnMotionBlur.CurrentStateIndex = 0;
-            this.btnMotionBlur.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnMotionBlur.Location = new System.Drawing.Point(148, 206);
-            this.btnMotionBlur.Name = "btnMotionBlur";
-            this.btnMotionBlur.Size = new System.Drawing.Size(100, 23);
-            this.btnMotionBlur.StateTooltipEnabled = true;
-            this.btnMotionBlur.TabIndex = 18;
-            this.btnMotionBlur.Text = "?";
-            this.btnMotionBlur.UseVisualStyleBackColor = true;
-            // 
-            // btnSmoothing
-            // 
-            this.btnSmoothing.CurrentStateIndex = 0;
-            this.btnSmoothing.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnSmoothing.Location = new System.Drawing.Point(148, 235);
-            this.btnSmoothing.Name = "btnSmoothing";
-            this.btnSmoothing.Size = new System.Drawing.Size(100, 23);
-            this.btnSmoothing.StateTooltipEnabled = true;
-            this.btnSmoothing.TabIndex = 19;
-            this.btnSmoothing.Text = "?";
-            this.btnSmoothing.UseVisualStyleBackColor = true;
-            // 
-            // btnUseLod0a
-            // 
-            this.btnUseLod0a.CurrentStateIndex = 0;
-            this.btnUseLod0a.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnUseLod0a.Location = new System.Drawing.Point(148, 264);
-            this.btnUseLod0a.Name = "btnUseLod0a";
-            this.btnUseLod0a.Size = new System.Drawing.Size(100, 23);
-            this.btnUseLod0a.StateTooltipEnabled = true;
-            this.btnUseLod0a.TabIndex = 20;
-            this.btnUseLod0a.Text = "?";
-            this.btnUseLod0a.UseVisualStyleBackColor = true;
-            // 
-            // txtMaxFPS
-            // 
-            this.txtMaxFPS.DefaultValue = 100;
-            this.txtMaxFPS.Location = new System.Drawing.Point(148, 32);
-            this.txtMaxFPS.MaximumValue = 999;
-            this.txtMaxFPS.MaxLength = 3;
-            this.txtMaxFPS.MinimumValue = -1;
-            this.txtMaxFPS.Name = "txtMaxFPS";
-            this.txtMaxFPS.Size = new System.Drawing.Size(100, 23);
-            this.txtMaxFPS.TabIndex = 12;
-            this.txtMaxFPS.Text = "100";
-            this.txtMaxFPS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtGamma
-            // 
-            this.txtGamma.DefaultValue = 0;
-            this.txtGamma.Location = new System.Drawing.Point(148, 293);
-            this.txtGamma.MaximumValue = 100;
-            this.txtGamma.MaxLength = 3;
-            this.txtGamma.MinimumValue = 0;
-            this.txtGamma.Name = "txtGamma";
-            this.txtGamma.Size = new System.Drawing.Size(100, 23);
-            this.txtGamma.TabIndex = 21;
-            this.txtGamma.Text = "0";
-            this.txtGamma.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtRenderQuality
-            // 
-            this.txtRenderQuality.DefaultValue = 100;
-            this.txtRenderQuality.Location = new System.Drawing.Point(137, 32);
-            this.txtRenderQuality.MaximumValue = 100;
-            this.txtRenderQuality.MaxLength = 3;
-            this.txtRenderQuality.MinimumValue = 50;
-            this.txtRenderQuality.Name = "txtRenderQuality";
-            this.txtRenderQuality.Size = new System.Drawing.Size(100, 23);
-            this.txtRenderQuality.TabIndex = 12;
-            this.txtRenderQuality.Text = "100";
-            this.txtRenderQuality.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnTreeQuality
-            // 
-            this.btnTreeQuality.CurrentStateIndex = 0;
-            this.btnTreeQuality.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnTreeQuality.Location = new System.Drawing.Point(137, 148);
-            this.btnTreeQuality.Name = "btnTreeQuality";
-            this.btnTreeQuality.Size = new System.Drawing.Size(100, 23);
-            this.btnTreeQuality.StateTooltipEnabled = true;
-            this.btnTreeQuality.TabIndex = 16;
-            this.btnTreeQuality.Text = "?";
-            this.btnTreeQuality.UseVisualStyleBackColor = true;
-            // 
-            // btnLightning
-            // 
-            this.btnLightning.CurrentStateIndex = 0;
-            this.btnLightning.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnLightning.Location = new System.Drawing.Point(137, 264);
-            this.btnLightning.Name = "btnLightning";
-            this.btnLightning.Size = new System.Drawing.Size(100, 23);
-            this.btnLightning.StateTooltipEnabled = true;
-            this.btnLightning.TabIndex = 20;
-            this.btnLightning.Text = "?";
-            this.btnLightning.UseVisualStyleBackColor = true;
-            // 
-            // btnShadows
-            // 
-            this.btnShadows.CurrentStateIndex = 0;
-            this.btnShadows.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnShadows.Location = new System.Drawing.Point(137, 235);
-            this.btnShadows.Name = "btnShadows";
-            this.btnShadows.Size = new System.Drawing.Size(100, 23);
-            this.btnShadows.StateTooltipEnabled = true;
-            this.btnShadows.TabIndex = 19;
-            this.btnShadows.Text = "?";
-            this.btnShadows.UseVisualStyleBackColor = true;
-            // 
-            // btnParticle
-            // 
-            this.btnParticle.CurrentStateIndex = 0;
-            this.btnParticle.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnParticle.Location = new System.Drawing.Point(137, 206);
-            this.btnParticle.Name = "btnParticle";
-            this.btnParticle.Size = new System.Drawing.Size(100, 23);
-            this.btnParticle.StateTooltipEnabled = true;
-            this.btnParticle.TabIndex = 18;
-            this.btnParticle.Text = "?";
-            this.btnParticle.UseVisualStyleBackColor = true;
-            // 
-            // btnEffects
-            // 
-            this.btnEffects.CurrentStateIndex = 0;
-            this.btnEffects.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnEffects.Location = new System.Drawing.Point(137, 177);
-            this.btnEffects.Name = "btnEffects";
-            this.btnEffects.Size = new System.Drawing.Size(100, 23);
-            this.btnEffects.StateTooltipEnabled = true;
-            this.btnEffects.TabIndex = 17;
-            this.btnEffects.Text = "?";
-            this.btnEffects.UseVisualStyleBackColor = true;
-            // 
-            // btnFlora
-            // 
-            this.btnFlora.CurrentStateIndex = 0;
-            this.btnFlora.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnFlora.Location = new System.Drawing.Point(137, 119);
-            this.btnFlora.Name = "btnFlora";
-            this.btnFlora.Size = new System.Drawing.Size(100, 23);
-            this.btnFlora.StateTooltipEnabled = true;
-            this.btnFlora.TabIndex = 15;
-            this.btnFlora.Text = "?";
-            this.btnFlora.UseVisualStyleBackColor = true;
-            // 
-            // btnModels
-            // 
-            this.btnModels.CurrentStateIndex = 0;
-            this.btnModels.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnModels.Location = new System.Drawing.Point(137, 90);
-            this.btnModels.Name = "btnModels";
-            this.btnModels.Size = new System.Drawing.Size(100, 23);
-            this.btnModels.StateTooltipEnabled = true;
-            this.btnModels.TabIndex = 14;
-            this.btnModels.Text = "?";
-            this.btnModels.UseVisualStyleBackColor = true;
-            // 
-            // btnTextures
-            // 
-            this.btnTextures.CurrentStateIndex = 0;
-            this.btnTextures.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnTextures.Location = new System.Drawing.Point(137, 61);
-            this.btnTextures.Name = "btnTextures";
-            this.btnTextures.Size = new System.Drawing.Size(100, 23);
-            this.btnTextures.StateTooltipEnabled = true;
-            this.btnTextures.TabIndex = 13;
-            this.btnTextures.Text = "?";
-            this.btnTextures.UseVisualStyleBackColor = true;
-            // 
-            // btnOverall
-            // 
-            this.btnOverall.CurrentStateIndex = 0;
-            this.btnOverall.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnOverall.Location = new System.Drawing.Point(137, 3);
-            this.btnOverall.Name = "btnOverall";
-            this.btnOverall.Size = new System.Drawing.Size(100, 23);
-            this.btnOverall.StateTooltipEnabled = true;
-            this.btnOverall.TabIndex = 11;
-            this.btnOverall.Text = "?";
-            this.btnOverall.UseVisualStyleBackColor = true;
-            // 
-            // btnInteriorLightning
-            // 
-            this.btnInteriorLightning.CurrentStateIndex = 0;
-            this.btnInteriorLightning.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnInteriorLightning.Location = new System.Drawing.Point(137, 293);
-            this.btnInteriorLightning.Name = "btnInteriorLightning";
-            this.btnInteriorLightning.Size = new System.Drawing.Size(100, 23);
-            this.btnInteriorLightning.StateTooltipEnabled = true;
-            this.btnInteriorLightning.TabIndex = 21;
-            this.btnInteriorLightning.Text = "?";
-            this.btnInteriorLightning.UseVisualStyleBackColor = true;
-            // 
-            // chkLegacyHitmarker
-            // 
-            this.chkLegacyHitmarker.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.chkLegacyHitmarker.CheckedState = "1";
-            this.chkLegacyHitmarker.Location = new System.Drawing.Point(324, 199);
-            this.chkLegacyHitmarker.Name = "chkLegacyHitmarker";
-            this.chkLegacyHitmarker.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
-            this.chkLegacyHitmarker.Size = new System.Drawing.Size(191, 40);
-            this.chkLegacyHitmarker.TabIndex = 23;
-            this.chkLegacyHitmarker.Text = "Legacy hitmarker";
-            this.chkLegacyHitmarker.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chkLegacyHitmarker.UncheckedState = "0";
-            this.chkLegacyHitmarker.UseVisualStyleBackColor = false;
-            // 
-            // chkClassicReticle
-            // 
-            this.chkClassicReticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
-            this.chkClassicReticle.CheckedState = "1";
-            this.chkClassicReticle.Location = new System.Drawing.Point(256, 291);
-            this.chkClassicReticle.Name = "chkClassicReticle";
-            this.chkClassicReticle.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
-            this.chkClassicReticle.Size = new System.Drawing.Size(259, 40);
-            this.chkClassicReticle.TabIndex = 22;
-            this.chkClassicReticle.Text = "Classic reticle in first person";
-            this.chkClassicReticle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chkClassicReticle.UncheckedState = "0";
-            this.chkClassicReticle.UseVisualStyleBackColor = false;
-            // 
-            // chkShowCOF
-            // 
-            this.chkShowCOF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(220)))));
-            this.chkShowCOF.CheckedState = "1";
-            this.chkShowCOF.Location = new System.Drawing.Point(360, 245);
-            this.chkShowCOF.Name = "chkShowCOF";
-            this.chkShowCOF.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
-            this.chkShowCOF.Size = new System.Drawing.Size(155, 40);
-            this.chkShowCOF.TabIndex = 21;
-            this.chkShowCOF.Text = "Show COF";
-            this.chkShowCOF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chkShowCOF.UncheckedState = "0";
-            this.chkShowCOF.UseVisualStyleBackColor = false;
-            // 
-            // btnMRawInput
-            // 
-            this.btnMRawInput.CurrentStateIndex = 0;
-            this.btnMRawInput.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnMRawInput.Location = new System.Drawing.Point(143, 3);
-            this.btnMRawInput.Name = "btnMRawInput";
-            this.btnMRawInput.Size = new System.Drawing.Size(95, 26);
-            this.btnMRawInput.StateTooltipEnabled = true;
-            this.btnMRawInput.TabIndex = 13;
-            this.btnMRawInput.Text = "?";
-            this.btnMRawInput.UseVisualStyleBackColor = true;
-            // 
-            // btnMSmoothing
-            // 
-            this.btnMSmoothing.CurrentStateIndex = 0;
-            this.btnMSmoothing.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnMSmoothing.Location = new System.Drawing.Point(143, 67);
-            this.btnMSmoothing.Name = "btnMSmoothing";
-            this.btnMSmoothing.Size = new System.Drawing.Size(95, 26);
-            this.btnMSmoothing.StateTooltipEnabled = true;
-            this.btnMSmoothing.TabIndex = 17;
-            this.btnMSmoothing.Text = "?";
-            this.btnMSmoothing.UseVisualStyleBackColor = true;
-            // 
-            // btnMReduceInputLag
-            // 
-            this.btnMReduceInputLag.CurrentStateIndex = 0;
-            this.btnMReduceInputLag.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnMReduceInputLag.Location = new System.Drawing.Point(143, 35);
-            this.btnMReduceInputLag.Name = "btnMReduceInputLag";
-            this.btnMReduceInputLag.Size = new System.Drawing.Size(95, 26);
-            this.btnMReduceInputLag.StateTooltipEnabled = true;
-            this.btnMReduceInputLag.TabIndex = 16;
-            this.btnMReduceInputLag.Text = "?";
-            this.btnMReduceInputLag.UseVisualStyleBackColor = true;
-            // 
-            // txtMSensVehicle
-            // 
-            this.txtMSensVehicle.DefaultValue = 0.35D;
-            this.txtMSensVehicle.Location = new System.Drawing.Point(89, 109);
-            this.txtMSensVehicle.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMSensVehicle.MaximumValue = 1D;
-            this.txtMSensVehicle.MaxLength = 5;
-            this.txtMSensVehicle.MinimumValue = 0D;
-            this.txtMSensVehicle.Name = "txtMSensVehicle";
-            this.txtMSensVehicle.NumberPattern = "0.00";
-            this.txtMSensVehicle.Size = new System.Drawing.Size(100, 23);
-            this.txtMSensVehicle.TabIndex = 21;
-            this.txtMSensVehicle.Text = "0.35";
-            this.txtMSensVehicle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtMSensScoped
-            // 
-            this.txtMSensScoped.DefaultValue = 0.15D;
-            this.txtMSensScoped.Location = new System.Drawing.Point(89, 76);
-            this.txtMSensScoped.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMSensScoped.MaximumValue = 1D;
-            this.txtMSensScoped.MaxLength = 5;
-            this.txtMSensScoped.MinimumValue = 0D;
-            this.txtMSensScoped.Name = "txtMSensScoped";
-            this.txtMSensScoped.NumberPattern = "0.00";
-            this.txtMSensScoped.Size = new System.Drawing.Size(100, 23);
-            this.txtMSensScoped.TabIndex = 6;
-            this.txtMSensScoped.Text = "0.15";
-            this.txtMSensScoped.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtMSensADS
-            // 
-            this.txtMSensADS.DefaultValue = 0.15D;
-            this.txtMSensADS.Location = new System.Drawing.Point(89, 43);
-            this.txtMSensADS.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMSensADS.MaximumValue = 1D;
-            this.txtMSensADS.MaxLength = 5;
-            this.txtMSensADS.MinimumValue = 0D;
-            this.txtMSensADS.Name = "txtMSensADS";
-            this.txtMSensADS.NumberPattern = "0.00";
-            this.txtMSensADS.Size = new System.Drawing.Size(100, 23);
-            this.txtMSensADS.TabIndex = 5;
-            this.txtMSensADS.Text = "0.15";
-            this.txtMSensADS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtMSensNormal
-            // 
-            this.txtMSensNormal.DefaultValue = 0.15D;
-            this.txtMSensNormal.Location = new System.Drawing.Point(89, 10);
-            this.txtMSensNormal.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMSensNormal.MaximumValue = 1D;
-            this.txtMSensNormal.MaxLength = 5;
-            this.txtMSensNormal.MinimumValue = 0D;
-            this.txtMSensNormal.Name = "txtMSensNormal";
-            this.txtMSensNormal.NumberPattern = "0.00";
-            this.txtMSensNormal.Size = new System.Drawing.Size(100, 23);
-            this.txtMSensNormal.TabIndex = 4;
-            this.txtMSensNormal.Text = "0.15";
-            this.txtMSensNormal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtMSensNormal.TextChanged += new System.EventHandler(this.txtMSensNormal_TextChanged);
-            // 
-            // txtMusicMaster
-            // 
-            this.txtMusicMaster.DefaultValue = 0D;
-            this.txtMusicMaster.Location = new System.Drawing.Point(102, 5);
-            this.txtMusicMaster.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMusicMaster.MaximumValue = 1D;
-            this.txtMusicMaster.MinimumValue = 0D;
-            this.txtMusicMaster.Name = "txtMusicMaster";
-            this.txtMusicMaster.NumberPattern = "0.00";
-            this.txtMusicMaster.Size = new System.Drawing.Size(100, 23);
-            this.txtMusicMaster.TabIndex = 3;
-            this.txtMusicMaster.Text = "0.00";
-            this.txtMusicMaster.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtMusicAmbient
-            // 
-            this.txtMusicAmbient.DefaultValue = 0D;
-            this.txtMusicAmbient.Location = new System.Drawing.Point(102, 38);
-            this.txtMusicAmbient.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMusicAmbient.MaximumValue = 1D;
-            this.txtMusicAmbient.MinimumValue = 0D;
-            this.txtMusicAmbient.Name = "txtMusicAmbient";
-            this.txtMusicAmbient.NumberPattern = "0.00";
-            this.txtMusicAmbient.Size = new System.Drawing.Size(100, 23);
-            this.txtMusicAmbient.TabIndex = 4;
-            this.txtMusicAmbient.Text = "0.00";
-            this.txtMusicAmbient.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtMusicEncounter
-            // 
-            this.txtMusicEncounter.DefaultValue = 0D;
-            this.txtMusicEncounter.Location = new System.Drawing.Point(102, 71);
-            this.txtMusicEncounter.Margin = new System.Windows.Forms.Padding(5);
-            this.txtMusicEncounter.MaximumValue = 1D;
-            this.txtMusicEncounter.MinimumValue = 0D;
-            this.txtMusicEncounter.Name = "txtMusicEncounter";
-            this.txtMusicEncounter.NumberPattern = "0.00";
-            this.txtMusicEncounter.Size = new System.Drawing.Size(100, 23);
-            this.txtMusicEncounter.TabIndex = 5;
-            this.txtMusicEncounter.Text = "0.00";
-            this.txtMusicEncounter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtSoundMaster
-            // 
-            this.txtSoundMaster.DefaultValue = 0D;
-            this.txtSoundMaster.Location = new System.Drawing.Point(82, 5);
-            this.txtSoundMaster.Margin = new System.Windows.Forms.Padding(5);
-            this.txtSoundMaster.MaximumValue = 1D;
-            this.txtSoundMaster.MinimumValue = 0D;
-            this.txtSoundMaster.Name = "txtSoundMaster";
-            this.txtSoundMaster.NumberPattern = "0.00";
-            this.txtSoundMaster.Size = new System.Drawing.Size(100, 23);
-            this.txtSoundMaster.TabIndex = 4;
-            this.txtSoundMaster.Text = "0.00";
-            this.txtSoundMaster.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtSoundEffects
-            // 
-            this.txtSoundEffects.DefaultValue = 0D;
-            this.txtSoundEffects.Location = new System.Drawing.Point(82, 38);
-            this.txtSoundEffects.Margin = new System.Windows.Forms.Padding(5);
-            this.txtSoundEffects.MaximumValue = 1D;
-            this.txtSoundEffects.MinimumValue = 0D;
-            this.txtSoundEffects.Name = "txtSoundEffects";
-            this.txtSoundEffects.NumberPattern = "0.00";
-            this.txtSoundEffects.Size = new System.Drawing.Size(100, 23);
-            this.txtSoundEffects.TabIndex = 5;
-            this.txtSoundEffects.Text = "0.00";
-            this.txtSoundEffects.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtSoundUI
-            // 
-            this.txtSoundUI.DefaultValue = 0D;
-            this.txtSoundUI.Location = new System.Drawing.Point(82, 71);
-            this.txtSoundUI.Margin = new System.Windows.Forms.Padding(5);
-            this.txtSoundUI.MaximumValue = 1D;
-            this.txtSoundUI.MinimumValue = 0D;
-            this.txtSoundUI.Name = "txtSoundUI";
-            this.txtSoundUI.NumberPattern = "0.00";
-            this.txtSoundUI.Size = new System.Drawing.Size(100, 23);
-            this.txtSoundUI.TabIndex = 6;
-            this.txtSoundUI.Text = "0.00";
-            this.txtSoundUI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtSoundDialog
-            // 
-            this.txtSoundDialog.DefaultValue = 0D;
-            this.txtSoundDialog.Location = new System.Drawing.Point(82, 104);
-            this.txtSoundDialog.Margin = new System.Windows.Forms.Padding(5);
-            this.txtSoundDialog.MaximumValue = 1D;
-            this.txtSoundDialog.MinimumValue = 0D;
-            this.txtSoundDialog.Name = "txtSoundDialog";
-            this.txtSoundDialog.NumberPattern = "0.00";
-            this.txtSoundDialog.Size = new System.Drawing.Size(100, 23);
-            this.txtSoundDialog.TabIndex = 7;
-            this.txtSoundDialog.Text = "0.00";
-            this.txtSoundDialog.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // chkMuteAll
-            // 
-            this.chkMuteAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(223)))), ((int)(((byte)(255)))));
-            this.chkMuteAll.CheckedState = "1";
-            this.chkMuteAll.Location = new System.Drawing.Point(21, 178);
-            this.chkMuteAll.Margin = new System.Windows.Forms.Padding(5);
-            this.chkMuteAll.Name = "chkMuteAll";
-            this.chkMuteAll.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
-            this.chkMuteAll.Size = new System.Drawing.Size(182, 55);
-            this.chkMuteAll.TabIndex = 2;
-            this.chkMuteAll.Text = "Mute sounds";
-            this.chkMuteAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chkMuteAll.UncheckedState = "0";
-            this.chkMuteAll.UseVisualStyleBackColor = false;
+            // chkCenterInventory
+            // 
+            this.chkCenterInventory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(255)))));
+            this.chkCenterInventory.CheckedState = "1";
+            this.chkCenterInventory.Location = new System.Drawing.Point(256, 193);
+            this.chkCenterInventory.Name = "chkCenterInventory";
+            this.chkCenterInventory.Padding = new System.Windows.Forms.Padding(15, 5, 5, 5);
+            this.chkCenterInventory.Size = new System.Drawing.Size(259, 30);
+            this.chkCenterInventory.TabIndex = 24;
+            this.chkCenterInventory.Text = "Center inventory";
+            this.chkCenterInventory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkCenterInventory.UncheckedState = "0";
+            this.chkCenterInventory.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 
@@ -2120,6 +2136,7 @@
         private IntegerBox txtRenderQuality;
         private CheckBoxPro chkLegacyHitmarker;
         private CheckBoxPro chkClassicReticle;
+        private CheckBoxPro chkCenterInventory;
     }
 }
 

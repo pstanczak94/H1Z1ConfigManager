@@ -126,7 +126,7 @@ namespace H1Z1_Config_Manager
             btnFlora.InitStates("Low:1|Medium:2|High:3", "Low");
             btnTreeQuality.InitStates("Low:0|Medium:1|High:2|Ultra:3", "Low");
             btnParticle.InitStates("Low:0|Medium:1|High:2|Ultra:3", "Low");
-            btnShadows.InitStates("Low:1|Medium:2|High:3|Ultra:4", "Low");
+            btnShadows.InitStates("Off:0|Low:1|Medium:2|High:3|Ultra:4", "Low");
             btnFogShadows.InitStates("Disabled:0|Enabled:1", "Disabled");
             btnLightning.InitStates("Low:0|High:1", "Low");
             btnInteriorLightning.InitStates("Disabled:0|Enabled:1", "Disabled");
@@ -144,6 +144,7 @@ namespace H1Z1_Config_Manager
             chkShowCOF.SetStates("1", "0");
             chkClassicReticle.SetStates("1", "0");
             chkLegacyHitmarker.SetStates("1", "0");
+            chkCenterInventory.SetStates("1", "0");
         }
 
         public void InitUserOptionsValues(UserOptionsParser parser)
@@ -216,6 +217,7 @@ namespace H1Z1_Config_Manager
             chkShowCOF.ChangeStateByValue(parser.GetStringValue("UI", "reticleShowCOF", "0"));
             chkClassicReticle.ChangeStateByValue(parser.GetStringValue("UI", "reticleClassicMode", "0"));
             chkLegacyHitmarker.ChangeStateByValue(parser.GetStringValue("UI", "LegacyHitmarker", "0"));
+            chkCenterInventory.ChangeStateByValue(parser.GetStringValue("UI", "CenterInventory", "0"));
 
             if (txtResFullWidth.GetValue() == txtResWindWidth.GetValue())
                 if (txtResFullHeight.GetValue() == txtResWindHeight.GetValue())
@@ -309,6 +311,7 @@ namespace H1Z1_Config_Manager
                 userOptions.SetStringValue("UI", "reticleShowCOF", chkShowCOF.GetState());
                 userOptions.SetStringValue("UI", "reticleClassicMode", chkClassicReticle.GetState());
                 userOptions.SetStringValue("UI", "LegacyHitmarker", chkLegacyHitmarker.GetState());
+                userOptions.SetStringValue("UI", "CenterInventory", chkCenterInventory.GetState());
 
                 userOptions.SetStringValue("Sound", "MuteAll", chkMuteAll.GetState());
                 userOptions.SetStringValue("Sound", "Master", txtSoundMaster.Text);
